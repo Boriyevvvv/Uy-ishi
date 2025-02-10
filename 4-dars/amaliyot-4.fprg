@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="amaliyot-1"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-10 11:14:52 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMDsiMTE6MDQ6MjAgIjsyNjE1"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMDsiMTE6MTQ6NTIgIjs0OzI3MzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3, p" type="Real" array="False" size=""/>
+            <output expression="&quot;1-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;2-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;3-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num3"/>
+            <output expression="(num1 * 5) + (num2 * 5) + (num3 * 5)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

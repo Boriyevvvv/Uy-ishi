@@ -1,0 +1,578 @@
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("./static/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("./static/OpenSans-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  padding: 20px 10px;
+  background-color: white;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 325px;
+  width: 1100px;
+}
+
+.main {
+  padding: 85px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 170px;
+}
+
+.main_right {
+  background-image: url("./images/youtube.svg");
+  width: 458px;
+  height: 258px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_left {
+  max-width: 465px;
+}
+
+.main_h1 {
+  font-family: "OpenSans-Bold";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 39px;
+  margin-bottom: 16px;
+  min-width: 470px;
+}
+
+.main_p {
+  font-family: "OpenSans-Regular";
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  list-style-type: none;
+}
+
+.items {
+  font-family: "OpenSans-Regular";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.header_btn {
+  width: 160px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #00bafc;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "OpenSans-Bold";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.header_btn:hover {
+  transition: 0.5s;
+  color: #00bafc;
+  border-color: #00bafc;
+  background-color: transparent;
+}
+
+.main_btn {
+  width: 230px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #00bafc;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "OpenSans-Bold";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.main_btn:hover {
+  transition: 0.5s;
+  color: #00bafc;
+  border-color: #00bafc;
+  background-color: transparent;
+}
+
+.sect1_btn {
+  width: 170px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #00bafc;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "OpenSans-Bold";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.sect1_btn:hover {
+  transition: 0.5s;
+  color: #00bafc;
+  border-color: #00bafc;
+  background-color: transparent;
+}
+
+.xizmatlar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sect1_h2 {
+  font-family: "OpenSans-Bold";
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.2px;
+  text-align: center;
+}
+
+.sect1_p {
+  font-family: "OpenSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  max-width: 719px;
+  margin-bottom: 40px;
+}
+
+.sect1_cards {
+  display: flex;
+  gap: 69px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.card:hover {
+  box-shadow: 0px 30px 30px 0px #0000001a;
+}
+
+.card {
+  width: 320px;
+  height: 260px;
+  box-shadow: 0px 8px 8px 0px #0000001a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sect1_p1 {
+  font-family: "OpenSans-Bold";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.sect1_p2 {
+  font-family: "OpenSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.sect1_btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 100px;
+}
+
+.sect1_link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #00bafc;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sect2_h2 {
+  font-family: "OpenSans-Bold";
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.2px;
+  text-align: center;
+}
+
+.sect2_p {
+  font-family: "OpenSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  max-width: 719px;
+  margin-bottom: 40px;
+}
+
+.sect2_cards {
+  display: flex;
+  gap: 48px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.card2 {
+  width: 830px;
+  height: 275px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.card22 {
+  width: 830px;
+  height: 275px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.sect2_p1 {
+  font-family: "OpenSans-Bold";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 8px;
+}
+.sect2_p2 {
+  font-family: "OpenSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.sect22_p1 {
+  font-family: "OpenSans-Bold";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 8px;
+}
+.sect22_p2 {
+  font-family: "OpenSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-left: 5px;
+}
+
+.sect_cont_btn {
+  width: 170px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #00bafc;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "OpenSans-Bold";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 55px;
+}
+
+.sect_cont_btn:hover {
+  transition: 0.5s;
+  color: #00bafc;
+  border-color: #00bafc;
+  background-color: transparent;
+}
+
+.section3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  padding: 56px 290px;
+  background-color: #00bafc;
+}
+
+.sect3_h2 {
+  font-family: "OpenSans-Bold";
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.2px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.sect3_p {
+  font-family: "OpenSans-Regular";
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  min-width: 719px;
+}
+
+.form {
+  width: 348px;
+  height: 304px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  background-color: white;
+}
+
+.name {
+  width: 300px;
+  height: 56px;
+  padding: 16px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  outline: none;
+  font-family: "OpenSans-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.form_btn {
+  width: 170px;
+  height: 40px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #00bafc;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "OpenSans-Bold";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.form_btn:hover {
+  transition: 0.5s;
+  color: #00bafc;
+  border-color: #00bafc;
+  background-color: transparent;
+}
+.footer {
+  width: 1300px;
+  background-color: black;
+  padding: 56px 400px 56px 100px;
+  display: flex;
+  align-items: center ;
+  justify-content: center ;
+  gap: 100px;
+}
+
+.ft_p {
+  font-family: "OpenSans-Bold";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.ft_p1 {
+  font-family: "OpenSans-Regular";
+  min-width: 320px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+
+}
+
+.ft_p {
+  font-family: "OpenSans-Bold";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 16px;
+  min-width: 143px;
+  color: white;
+
+}
+
+.thing {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  list-style-type: none;
+  flex-direction: column;
+}
+
+.things {
+  font-family: "OpenSans-Regular";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.ft_p {
+  font-family: "OpenSans-Bold";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.fr_p2 {
+  font-family: "OpenSans-Regular";
+  max-width: 320px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: white;
+
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer_logos {
+  text-decoration: none;
+}
+
+.fr_p2 {
+  font-family: "OpenSans-Regular";
+  max-width: 320px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: white;
+}
+
+
+
+.ft_one{
+  margin-top: -60px;
+}
+
+.ft_three{
+  margin-top: -110px;
+}

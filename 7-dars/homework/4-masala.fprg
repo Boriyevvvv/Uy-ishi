@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="6-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-16 11:29:50 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMTA6NTk6NTYgIjsyNjM5"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMTE6MTU6MzEgIjsxO1VzZXI7V0lOLUUyRlU5QjRDQ0xTOzIwMjQtMTItMTY7IjEwOjU5OjU2ICI7Ni1tYXNhbGEuZnByZzs2Njg5"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMTE6Mjk6NTAgIjs2OzI3NDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, yigindi" type="Integer" array="False" size=""/>
+            <assign variable="yigindi" expression="0"/>
+            <assign variable="n" expression="40"/>
+            <do expression="n &lt;= 180">
+                <if expression="n % 7 == 0 &amp;&amp; n % 2 == 0">
+                    <then>
+                        <if expression="n % 6 == 0 &amp;&amp; n % 4 == 0">
+                            <then>
+                                <output expression="n" newline="True"/>
+                                <assign variable="yigindi" expression="yigindi + n"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="n" expression="n + 1"/>
+            </do>
+            <output expression="&quot;Yig'indi: &quot; &amp; yigindi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

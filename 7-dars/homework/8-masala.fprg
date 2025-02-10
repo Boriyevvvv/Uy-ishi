@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="6-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-16 11:15:43 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMTA6NTk6NTYgIjsyNjM5"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMTE6MTU6MzEgIjsxO1VzZXI7V0lOLUUyRlU5QjRDQ0xTOzIwMjQtMTItMTY7IjEwOjU5OjU2ICI7Ni1tYXNhbGEuZnByZzs2Njg5"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMTE6MTU6NDMgIjszOzI3Mzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <while expression="i &lt;= 500">
+                <if expression="i % 8 == 0">
+                    <then>
+                        <output expression="&quot;Bu sonlar: &quot; &amp; i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="i" expression="i + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

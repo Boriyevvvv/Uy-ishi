@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-14 10:02:50 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMjsiMDU6MjQ6MTcgIjsyNjI4"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNDsiMTA6MDI6NTAgIjs1OzI3MzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, juft, toq" type="Integer" array="False" size=""/>
+            <output expression="&quot;n sonni kiriting: &quot;" newline="True"/>
+            <input variable="n"/>
+            <for variable="i" start="0" end="n" direction="inc" step="1">
+                <if expression="(i % 2 == 0)">
+                    <then>
+                        <output expression="&quot;0 dan siz kiritgan songacha bo'lgan 2 ga qoldiqsiz bo'linadigan sonlar: &quot; &amp; i" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="i % 3 == 0">
+                            <then>
+                                <output expression="&quot;0 dan siz kiritgan songacha bo'lgan 3 ga qoldiqsiz bo'linadigan sonlar: &quot; &amp; i" newline="True"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="amaliyot-1"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-11 01:10:03 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMDsiMTE6MDQ6MjAgIjsyNjE1"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMTsiMDE6MTA6MDMgIjsxOTsyNzc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <output expression="&quot;Balingizni kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <if expression="num1 == 100">
+                <then>
+                    <output expression="&quot;Ota-onangga rahmat !&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="100 &gt; num1 &amp;&amp; num1 &#8805; 90">
+                        <then>
+                            <output expression="&quot;Zo'r&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="90 &gt; num1 &amp;&amp; num1 &#8805; 80">
+                                <then>
+                                    <output expression="&quot;Yaxshi&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="80 &gt; num1 &amp;&amp; num1 &#8805; 70">
+                                        <then>
+                                            <output expression="&quot;Ko'proq o'qish kerak&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="70 &gt; num1 &amp;&amp; num1 &#8805; 60">
+                                                <then>
+                                                    <output expression="&quot;Qayta topshirish&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="60 &gt; num1 &amp;&amp; num1 != 0">
+                                                        <then>
+                                                            <output expression="&quot;Chopildi&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="num1 == 0">
+                                                                <then>
+                                                                    <output expression="&quot;Topshirilmadi&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <output expression="&quot;Bizda imtihon ballari 0 balldan 100 ballgacha&quot;" newline="True"/>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

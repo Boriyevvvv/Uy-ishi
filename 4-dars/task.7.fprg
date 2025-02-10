@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="task.7"/>
+        <attribute name="authors" value="Bexruz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-07 09:16:28 "/>
+        <attribute name="created" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA3OyIwODo1NjozNiAiOzI4NzU="/>
+        <attribute name="edited" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA3OyIwOToxNjoyOCAiOzE7Mjk4MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son, son1, son2, son3" type="Integer" array="False" size=""/>
+            <output expression="&quot;Sonni kiriting:&quot;" newline="True"/>
+            <input variable="son"/>
+            <assign variable="son1" expression="son/100"/>
+            <assign variable="son2" expression="(son%100)/10"/>
+            <assign variable="son3" expression="son%10"/>
+            <output expression="&quot;Yangilangan qiymati:&quot; &amp;son1 &amp;son3 &amp;son2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

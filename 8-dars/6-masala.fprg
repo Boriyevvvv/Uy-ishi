@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="3-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-18 11:48:27 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xODsiMTE6MDA6MTUgIjsyNjIz"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xODsiMTE6MjI6MTcgIjsxO1VzZXI7V0lOLUUyRlU5QjRDQ0xTOzIwMjQtMTItMTg7IjEwOjQwOjE4ICI7Mi1tYXNhbGEuZnByZzs2Njc5"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xODsiMTE6NDg6MjcgIjs0OzI3NDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <if expression="num1 &gt; 0">
+                <then>
+                    <output expression="&quot;+17&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num1 &lt; 0">
+                        <then>
+                            <output expression="&quot;-10&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;7&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

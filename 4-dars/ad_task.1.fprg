@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="task.10"/>
+        <attribute name="authors" value="Bexruz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-12 12:07:37 "/>
+        <attribute name="created" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA4OyIxMDoyMjo0OCAiOzI4NjU="/>
+        <attribute name="edited" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA4OyIxMDo0MTozNiAiOzM7Mjk3Mw=="/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMjsiMTI6MDc6MzcgIjsxOzI3Mzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son, son1, son2, son3" type="Integer" array="False" size=""/>
+            <output expression="&quot;Sonni kiriting:&quot;" newline="True"/>
+            <input variable="son"/>
+            <assign variable="son1" expression="son/100"/>
+            <assign variable="son2" expression="(son%100)/10"/>
+            <assign variable="son3" expression="son%10"/>
+            <output expression="&quot;=&quot; &amp;son1 &amp;&quot; &quot; &amp;son2 &amp;&quot; &quot;  &amp;son3" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

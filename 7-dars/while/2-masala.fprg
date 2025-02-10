@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-16 08:22:00 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMDg6MTU6MTcgIjsyNjM1"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMDg6MjI6MDAgIjsyOzI3MzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, yigindi, sum" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <assign variable="yigindi" expression="0"/>
+            <while expression="num1&gt;0">
+                <assign variable="sum" expression="num1 % 10"/>
+                <if expression="sum % 2 == 0">
+                    <then>
+                        <assign variable="yigindi" expression="yigindi + sum"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="num1" expression="num1 / 10"/>
+            </while>
+            <output expression="yigindi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

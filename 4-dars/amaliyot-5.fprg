@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="amaliyot-1"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-10 11:49:35 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMDsiMTE6MDQ6MjAgIjsyNjE1"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMDsiMTE6NDk6MzUgIjs2OzI3NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3, num4, math, yigindi" type="Integer" array="False" size=""/>
+            <assign variable="yigindi" expression="0"/>
+            <assign variable="math" expression="0"/>
+            <output expression="&quot;1-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;2-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;3-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num3"/>
+            <output expression="&quot;4-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num4"/>
+            <if expression="num1 % 2 = 0">
+                <then>
+                    <assign variable="yigindi" expression="yigindi + num1 + 10"/>
+                </then>
+                <else>
+                    <assign variable="math" expression="math + (num1 * 3)"/>
+                </else>
+            </if>
+            <if expression="num2 % 2  = 0">
+                <then>
+                    <assign variable="yigindi" expression="yigindi + num2 + 10"/>
+                </then>
+                <else>
+                    <assign variable="math" expression="math + (num2 * 3)"/>
+                </else>
+            </if>
+            <if expression="num3 % 2  = 0">
+                <then>
+                    <assign variable="yigindi" expression="yigindi + num3 + 10"/>
+                </then>
+                <else>
+                    <assign variable="math" expression="math + (num3 * 3)"/>
+                </else>
+            </if>
+            <if expression="num4 % 2  = 0">
+                <then>
+                    <assign variable="yigindi" expression="yigindi + num4 + 10"/>
+                </then>
+                <else>
+                    <assign variable="math" expression="math + (num4 * 3)"/>
+                </else>
+            </if>
+            <output expression="&quot;Juft sonlar yig'indisi + 10 bilan har biriga: &quot; &amp; yigindi &amp;  &quot; ga va &quot; &amp; &quot;toq sonlar yig'indisi *3 bilan har biriga: &quot; &amp; math &amp; &quot; ga teng.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

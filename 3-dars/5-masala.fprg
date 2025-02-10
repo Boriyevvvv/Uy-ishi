@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-06 08:32:45 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0wNjsiMDg6MTc6MzYgIjsyNjM3"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0wNjsiMDg6MzI6NDUgIjs2OzI3NDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Real" array="False" size=""/>
+            <output expression="&quot;Son kiriting sonni kvadratga oshirib beraman&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Bu sonning kvadrati:&quot; &amp; &quot; &quot; &amp; num1 * num1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="3-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-18 11:20:45 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xODsiMTE6MDA6MTUgIjsyNjIz"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xODsiMTE6MjA6NDUgIjsxOzI3MzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, Ikkiraqam, kopaytma, a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;3-xonali son kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <assign variable="Ikkiraqam" expression="num1 % 100"/>
+            <assign variable="a" expression="(Ikkiraqam / 10) % 10"/>
+            <assign variable="b" expression="Ikkiraqam % 10"/>
+            <assign variable="kopaytma" expression="a * b"/>
+            <if expression="kopaytma % 5 == 0 &amp;&amp; kopaytma % 2 == 0">
+                <then>
+                    <output expression="&quot;A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="kopaytma % 3 == 0 &amp;&amp; kopaytma % 7 == 0">
+                        <then>
+                            <output expression="&quot;B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Bo'linmaydi&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

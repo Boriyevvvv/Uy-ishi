@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ad_task.4"/>
+        <attribute name="authors" value="Bexruz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-09 03:01:12 "/>
+        <attribute name="created" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA5OyIwMjo1MzoyNCAiOzI4NjU="/>
+        <attribute name="edited" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA5OyIwMzowMToxMiAiOzE7Mjk2NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son1, son2, son11, son12, son21, son22, yigindi1, yigindi2" type="Integer" array="False" size=""/>
+            <output expression="&quot;1-sonni kiriting:&quot;" newline="True"/>
+            <input variable="son1"/>
+            <output expression="&quot;2-sonni kiriting:&quot;" newline="True"/>
+            <input variable="son2"/>
+            <assign variable="son11" expression="son1/10"/>
+            <assign variable="son12" expression="son1%10"/>
+            <assign variable="son21" expression="son2/10"/>
+            <assign variable="son22" expression="son2%10"/>
+            <assign variable="yigindi1" expression="son11+son12"/>
+            <assign variable="yigindi2" expression="son21+son22"/>
+            <output expression="&quot;1-sonni yigindisi=&quot; &amp;yigindi1 &amp; &quot; &quot; &amp;&quot;2-sonni yigindisi=&quot; &amp;yigindi2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

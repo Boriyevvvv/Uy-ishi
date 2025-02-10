@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-14 09:34:59 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMjsiMDU6MjQ6MTcgIjsyNjI4"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNDsiMDk6MzQ6NTkgIjs1OzI3NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, yigindi, i, juft, toq" type="Integer" array="False" size=""/>
+            <output expression="&quot;n sonni kiriting: &quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="yigindi" expression="0"/>
+            <if expression="n % 2 == 0">
+                <then>
+                    <for variable="juft" start="0" end="n" direction="inc" step="2">
+                        <assign variable="yigindi" expression="yigindi + juft"/>
+                        <output expression="&quot;1 sonididan siz kiritgan songacha bo'lgan juft sonlar quyidagilar: &quot; &amp; juft" newline="True"/>
+                    </for>
+                </then>
+                <else>
+                    <for variable="toq" start="1" end="n" direction="inc" step="2">
+                        <assign variable="yigindi" expression="yigindi + toq"/>
+                        <output expression="&quot;1 sonididan siz kiritgan songacha bo'lgan toq sonlar quyidagilar: &quot; &amp; toq" newline="True"/>
+                    </for>
+                </else>
+            </if>
+            <output expression="&quot;1 dan siz kiritgan songacha bo'lgan sonlar (agar siz juft son kiritgan bo'lsangiz juft sonlar, agar toq son kiritgan bo'lsangiz toq sonlar) yig'indisi: &quot; &amp; yigindi &amp; &quot; ga teng.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="task.10"/>
+        <attribute name="authors" value="Bexruz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-08 10:47:09 "/>
+        <attribute name="created" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA4OyIxMDoyMjo0OCAiOzI4NjU="/>
+        <attribute name="edited" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA4OyIxMDo0NzowOSAiOzM7Mjk3OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="viloyat, tuman" type="String" array="False" size=""/>
+            <output expression="&quot;Viloyatni kiritng&quot;" newline="True"/>
+            <input variable="viloyat"/>
+            <output expression="&quot;Tumanni kiriting&quot;" newline="True"/>
+            <input variable="tuman"/>
+            <output expression="&quot;Viloyat:&quot; &amp;viloyat &amp;&quot; &quot; &amp;&quot;Tuman:&quot; &amp;tuman" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

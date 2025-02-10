@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-12 06:05:33 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMjsiMDU6MjQ6MTcgIjsyNjI4"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMjsiMDY6MDU6MzMgIjsyOzI3MzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, yigindi, i" type="Integer" array="False" size=""/>
+            <declare name="kopaytma" type="Real" array="False" size=""/>
+            <output expression="&quot;n sonni kiriting: &quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="yigindi" expression="0"/>
+            <assign variable="kopaytma" expression="1"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <assign variable="yigindi" expression="yigindi + i"/>
+                <assign variable="kopaytma" expression="kopaytma * i"/>
+            </for>
+            <output expression="&quot;1 dan siz kiritgan songacha bo'lgan sonlar yig'indisi: &quot; &amp; yigindi  &amp; &quot;, ko'paytmasi esa: &quot; &amp; kopaytma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

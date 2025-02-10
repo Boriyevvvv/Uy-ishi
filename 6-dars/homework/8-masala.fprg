@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="3-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-14 12:35:40 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNDsiMTE6Mjg6NTAgIjsyNjI4"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNDsiMTI6MzU6NDAgIjsyOzI3MzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, limit" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting: &quot;" newline="True"/>
+            <input variable="n"/>
+            <for variable="limit" start="n" end="n*2" direction="inc" step="1">
+                <output expression="limit" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

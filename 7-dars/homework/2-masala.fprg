@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-16 09:01:14 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMDg6MTU6MTcgIjsyNjM1"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMDk6MDE6MTQgIjs4OzI3NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, kesmasoni, qoldiq" type="Integer" array="False" size=""/>
+            <output expression="&quot;1-son 2-sondan katta bo'lishi kerak!&quot; &amp; &quot; (A &gt; B)&quot;" newline="True"/>
+            <output expression="&quot;1-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;2-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <assign variable="kesmasoni" expression="0"/>
+            <assign variable="qoldiq" expression="num1"/>
+            <while expression="qoldiq &#8805; num2">
+                <assign variable="qoldiq" expression="qoldiq - num2"/>
+                <assign variable="kesmasoni" expression="kesmasoni + 1"/>
+            </while>
+            <output expression="&quot;Bo'sh qism : &quot; &amp; qoldiq&amp; &quot;ta, joylashtirilgan kesmalar soni: &quot; &amp; kesmasoni &amp; &quot; taga teng.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

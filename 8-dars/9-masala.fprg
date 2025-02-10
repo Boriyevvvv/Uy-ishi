@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="3-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-19 12:00:08 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xODsiMTE6MDA6MTUgIjsyNjIz"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xODsiMTE6MjI6MTcgIjsxO1VzZXI7V0lOLUUyRlU5QjRDQ0xTOzIwMjQtMTItMTg7IjEwOjQwOjE4ICI7Mi1tYXNhbGEuZnByZzs2Njc5"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xOTsiMTI6MDA6MDggIjs3OzI3NDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, juft, yigindi" type="Integer" array="False" size=""/>
+            <output expression="&quot;E'tibor bering: A&lt;B &quot;" newline="True"/>
+            <output expression="&quot;a sonni kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;b sonni kiriting: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <assign variable="yigindi" expression="0"/>
+            <if expression="num2&gt; num1">
+                <then>
+                    <for variable="juft" start="num1" end="num2" direction="inc" step="1">
+                        <if expression="juft % 2 == 0 &amp;&amp; juft % 7 == 0">
+                            <then>
+                                <assign variable="yigindi" expression="yigindi + juft"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </for>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Siz kiritgan sonlar ichida 7 ga bo'linadigan juft sonlar yig'indisi: &quot; &amp; yigindi &amp; &quot; ga teng.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

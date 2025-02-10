@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-16 08:24:54 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMDg6MTU6MTcgIjsyNjM1"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMDg6MjQ6NTQgIjszOzI3NDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, count" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <assign variable="count" expression="0"/>
+            <while expression="num1&gt;0">
+                <assign variable="num1" expression="num1 / 10"/>
+                <assign variable="count" expression="count + 1"/>
+            </while>
+            <output expression="count" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

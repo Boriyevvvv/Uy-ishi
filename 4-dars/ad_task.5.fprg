@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ad_task.5"/>
+        <attribute name="authors" value="Bexruz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-12 12:07:56 "/>
+        <attribute name="created" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA5OyIwMzowMToxNSAiOzI4NTk="/>
+        <attribute name="edited" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA5OyIwMzowNjo0NiAiOzE7Mjk3Ng=="/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMjsiMTI6MDc6NTYgIjsxOzI3Mzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son, son1, son2, son3, son4" type="Integer" array="False" size=""/>
+            <output expression="&quot;Sonni kiriting:&quot;" newline="True"/>
+            <input variable="son"/>
+            <assign variable="son1" expression="son/1000"/>
+            <assign variable="son2" expression="(son/100)%10"/>
+            <assign variable="son3" expression="(son%100)/10"/>
+            <assign variable="son4" expression="son%10"/>
+            <output expression="&quot;Hosil bolgan son: &quot; &amp;son4 &amp;son3 &amp;son2 &amp;son1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

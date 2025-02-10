@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="6-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-16 11:34:30 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMTA6NTk6NTYgIjsyNjM5"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMTE6MTU6MzEgIjsxO1VzZXI7V0lOLUUyRlU5QjRDQ0xTOzIwMjQtMTItMTY7IjEwOjU5OjU2ICI7Ni1tYXNhbGEuZnByZzs2Njg5"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMTE6MzQ6MzAgIjs3OzI3Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son, digit, sum" type="Integer" array="False" size=""/>
+            <output expression="&quot;Son kiriting: &quot;" newline="True"/>
+            <input variable="son"/>
+            <assign variable="sum" expression="0"/>
+            <while expression="son &gt; 0">
+                <assign variable="digit" expression="son % 10"/>
+                <if expression="digit % 2 == 0">
+                    <then>
+                        <assign variable="sum" expression="sum + digit"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="son" expression="son / 10"/>
+            </while>
+            <output expression="&quot;Siz kiritgan sondagi raqamlar yig'indisi: &quot; &amp; sum &amp; &quot; ga teng.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

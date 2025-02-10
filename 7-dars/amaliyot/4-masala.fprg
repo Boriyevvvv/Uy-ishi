@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-16 08:48:34 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMDg6MTU6MTcgIjsyNjM1"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMDg6NDg6MzQgIjs2OzI3NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, yigindi, num" type="Integer" array="False" size=""/>
+            <output expression="&quot;2-son 1-sondan katta bo'lishi kerak!&quot;" newline="True"/>
+            <output expression="&quot;1-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;2-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <assign variable="num" expression="num1"/>
+            <assign variable="yigindi" expression="0"/>
+            <if expression="num1 &lt; num2">
+                <then>
+                    <do expression="num &lt;= num2">
+                        <output expression="num" newline="True"/>
+                        <assign variable="yigindi" expression="yigindi + 1"/>
+                        <assign variable="num" expression="num +  1"/>
+                    </do>
+                    <output expression="&quot;A sondan B songacha sonlar jami: &quot; &amp; yigindi" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ERROR&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

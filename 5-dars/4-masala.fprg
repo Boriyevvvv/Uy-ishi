@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="amaliyot-1"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-11 12:30:50 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMDsiMTE6MDQ6MjAgIjsyNjE1"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMTsiMTI6MzA6NTAgIjsxMjsyNzc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3, musbat" type="Integer" array="False" size=""/>
+            <assign variable="musbat" expression="0"/>
+            <output expression="&quot;1-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;2-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;3-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num3"/>
+            <if expression="num1 &gt; 0 &amp;&amp; num1 != 0">
+                <then>
+                    <assign variable="musbat" expression="musbat + 1"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="num2 &gt; 0 &amp;&amp; num2 != 0">
+                <then>
+                    <assign variable="musbat" expression="musbat + 1"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="num3 &gt; 0 &amp;&amp; num3 != 0">
+                <then>
+                    <assign variable="musbat" expression="musbat + 1"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;Musbat sonlar soni: &quot; &amp; musbat &amp; &quot; ta&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

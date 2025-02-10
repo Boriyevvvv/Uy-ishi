@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-06 08:56:16 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0wNjsiMDg6MTc6MzYgIjsyNjM3"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0wNjsiMDg6NTY6MTYgIjsxMDsyNzk0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2" type="Real" array="False" size=""/>
+            <declare name="ortar" type="Real" array="False" size=""/>
+            <output expression="&quot;Birinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Ikkinchi sonni kiriting: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <assign variable="ortar" expression="(num1 + num2) / 2"/>
+            <output expression="&quot;O'rta arifmetik: &quot; &amp; ortar &amp; &quot;ga teng&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

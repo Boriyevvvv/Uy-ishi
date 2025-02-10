@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="amaliyot-1"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-11 01:00:24 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMDsiMTE6MDQ6MjAgIjsyNjE1"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMTsiMDE6MDA6MjQgIjsxODsyNzc5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <output expression="&quot;Foydalanuvchi  hafta  kun  raqamini  butun  sonda  kiritadi. &quot;" newline="True"/>
+            <input variable="num1"/>
+            <if expression="num1 == 1">
+                <then>
+                    <output expression="&quot;Dushanba&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num1 == 2">
+                        <then>
+                            <output expression="&quot;Seshanba&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="num1 == 3">
+                                <then>
+                                    <output expression="&quot;Chorshanba&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="num1 == 4">
+                                        <then>
+                                            <output expression="&quot;Payshanba&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="num1 == 5">
+                                                <then>
+                                                    <output expression="&quot;Juma&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="num1 == 6">
+                                                        <then>
+                                                            <output expression="&quot;Shanba&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="num1 == 7">
+                                                                <then>
+                                                                    <output expression="&quot;Yakshanba&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <output expression="&quot;Xato: 1 dan 7 gacha son kiriting va qaytadan run orqali tekshiring.&quot;" newline="True"/>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

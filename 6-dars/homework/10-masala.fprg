@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="10-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-14 01:08:45 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNDsiMDE6MDA6MjMgIjsyNjE3"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNDsiMDE6MDg6NDUgIjsxOzI3Mzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3, num4, num5, maxnum" type="Real" array="False" size=""/>
+            <output expression="&quot;1-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;2-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;3-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num3"/>
+            <output expression="&quot;4-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num4"/>
+            <output expression="&quot;5-sonni kiriting: &quot;" newline="True"/>
+            <input variable="num5"/>
+            <assign variable="maxnum" expression="num1"/>
+            <if expression="num1&gt;num2 &amp;&amp; num1&gt;num3 &amp;&amp; num1&gt;num4 &amp;&amp; num1&gt;num5">
+                <then>
+                    <output expression="maxnum" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num3&gt;num2 &amp;&amp; num3&gt;num1 &amp;&amp; num3&gt;num4 &amp;&amp; num3&gt;num5">
+                        <then>
+                            <output expression="num3" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="num4&gt;num2 &amp;&amp; num4&gt;num3 &amp;&amp; num4&gt;num1 &amp;&amp; num4&gt;num5">
+                                <then>
+                                    <output expression="num4" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="num5&gt;num2 &amp;&amp; num5&gt;num3 &amp;&amp; num5&gt;num4 &amp;&amp; num5&gt;num1">
+                                        <then>
+                                            <output expression="num5" newline="True"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

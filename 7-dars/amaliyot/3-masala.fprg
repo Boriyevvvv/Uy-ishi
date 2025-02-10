@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="6-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-16 11:39:52 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMTA6NTk6NTYgIjsyNjM5"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMTE6MTU6MzEgIjsxO1VzZXI7V0lOLUUyRlU5QjRDQ0xTOzIwMjQtMTItMTY7IjEwOjU5OjU2ICI7Ni1tYXNhbGEuZnByZzs2Njg5"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNjsiMTE6Mzk6NTIgIjs4OzI3NDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, M, minson, maxson" type="Integer" array="False" size=""/>
+            <output expression="&quot;1-sonni kiriting: &quot;" newline="True"/>
+            <input variable="N"/>
+            <output expression="&quot;2-sonni kiriting: &quot;" newline="True"/>
+            <input variable="M"/>
+            <if expression="N&lt;M">
+                <then>
+                    <assign variable="minson" expression="N"/>
+                    <assign variable="maxson" expression="M"/>
+                    <while expression="N&lt;=M">
+                        <output expression="N" newline="True"/>
+                        <assign variable="N" expression="N + 1"/>
+                    </while>
+                </then>
+                <else>
+                    <assign variable="minson" expression="M"/>
+                    <assign variable="maxson" expression="N"/>
+                    <while expression="M&lt;=N">
+                        <output expression="M" newline="True"/>
+                        <assign variable="M" expression="M + 1"/>
+                    </while>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="amaliyot-1"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-10 11:12:17 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMDsiMTE6MDQ6MjAgIjsyNjE1"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMDsiMTE6MTI6MTcgIjszOzI3MzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, p" type="Real" array="False" size=""/>
+            <output expression="&quot;To'g'ri to'rtburchakning bo'yini kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;To'g'ri to'rtburchakning enini kiriting: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <output expression="&quot;To'g'ri to'rtburchakning perimetri: &quot; &amp; (num1+num2)*2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

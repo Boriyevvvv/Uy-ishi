@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-06 08:34:20 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0wNjsiMDg6MTc6MzYgIjsyNjM3"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0wNjsiMDg6MzQ6MjAgIjs3OzI3NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Real" array="False" size=""/>
+            <output expression="&quot;Kvadratni tomonini kiriting, perimetrini topib beraman:&quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Kvadratning perimetri:&quot; &amp; &quot; &quot; &amp; 4 * num1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

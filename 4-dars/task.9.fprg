@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="task.1"/>
+        <attribute name="authors" value="Bexruz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-12 12:07:02 "/>
+        <attribute name="created" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA3OyIwNToxMTo1MiAiOzI4NjE="/>
+        <attribute name="edited" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA3OyIwNjoyNTowMSAiOzE7Mjk2OQ=="/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMjsiMTI6MDc6MDIgIjsxOzI3Mjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, son1, son" type="Integer" array="False" size=""/>
+            <output expression="&quot;Sonni kiritng:&quot;" newline="True"/>
+            <input variable="N"/>
+            <assign variable="son1" expression="N/100"/>
+            <assign variable="son" expression="N%100"/>
+            <output expression="&quot;Javobi=&quot; &amp; son &amp; son1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

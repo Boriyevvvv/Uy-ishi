@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="amaliyot-1"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-11 12:25:09 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMDsiMTE6MDQ6MjAgIjsyNjE1"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xMTsiMTI6MjU6MDkgIjsxMTsyNzg0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <output expression="&quot;Butun son kiriting: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <if expression="num1 &gt; 0">
+                <then>
+                    <output expression="num1 + 1" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num1 &lt; 0">
+                        <then>
+                            <output expression="num1 - 2" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="num1 = 0">
+                                <then>
+                                    <assign variable="num1" expression="10"/>
+                                    <output expression="num1" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-14 11:23:13 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNDsiMTE6MTk6MTQgIjsyNjI4"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNDsiMTE6MjM6MTMgIjsxOzI3MzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="price" type="Real" array="False" size=""/>
+            <output expression="&quot;1kg konfet narxini kiriting: &quot;" newline="True"/>
+            <input variable="price"/>
+            <output expression="&quot;1.3 kg uchun bu: &quot; &amp; price * 1.3 &amp; &quot; ga,&quot;" newline="True"/>
+            <output expression="&quot;1.6 kg uchun bu: &quot; &amp; price * 1.6 &amp; &quot; ga,&quot;" newline="True"/>
+            <output expression="&quot;1.9 kg uchun bu: &quot; &amp; price * 1.9 &amp; &quot; ga,&quot;" newline="True"/>
+            <output expression="&quot;2.2 kg uchun bu: &quot; &amp; price * 2.2 &amp; &quot; ga teng.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="task.10"/>
+        <attribute name="authors" value="Bexruz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-08 11:47:27 "/>
+        <attribute name="created" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA4OyIxMDoyMjo0OCAiOzI4NjU="/>
+        <attribute name="edited" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA4OyIxMTo0NzoyNyAiOzM7Mjk4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son1, son2, son3, son4, son5" type="Integer" array="False" size=""/>
+            <declare name="ortacha" type="Real" array="False" size=""/>
+            <output expression="&quot;1-sonni kiriting:&quot;" newline="True"/>
+            <input variable="son1"/>
+            <output expression="&quot;2-sonni kiriting&quot;" newline="True"/>
+            <input variable="son2"/>
+            <output expression="&quot;3-sonni kiriting:&quot;" newline="True"/>
+            <input variable="son3"/>
+            <output expression="&quot;4-sonni kiriting:&quot;" newline="True"/>
+            <input variable="son4"/>
+            <output expression="&quot;5-sonni kiriting:&quot;" newline="True"/>
+            <input variable="son5"/>
+            <assign variable="ortacha" expression="(son1+son2+son3+son4+son5)/5"/>
+            <output expression="&quot;Kiritilgan sonlarning ortacha qiymati=&quot; &amp;ortacha" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2-masala"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-14 11:27:34 "/>
+        <attribute name="created" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNDsiMTA6MDY6MTUgIjsyNjI0"/>
+        <attribute name="edited" value="VXNlcjtXSU4tRTJGVTlCNENDTFM7MjAyNC0xMi0xNDsiMTE6Mjc6MzQgIjszOzI3Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, kopaytma, i" type="Integer" array="False" size=""/>
+            <output expression="&quot;1-butun sonni kiriting: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;E'tibor bering 2-son&gt;1-son &quot; &amp; &quot; 2-butun sonni kiriting: &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="kopaytma" expression="1"/>
+            <for variable="i" start="a" end="b" direction="inc" step="1">
+                <assign variable="kopaytma" expression="kopaytma * i"/>
+            </for>
+            <output expression="kopaytma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

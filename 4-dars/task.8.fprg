@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="task.8"/>
+        <attribute name="authors" value="Bexruz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-08 10:21:31 "/>
+        <attribute name="created" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA3OyIwOToxNjozMyAiOzI4Njk="/>
+        <attribute name="edited" value="QmV4cnV6O0RFU0tUT1AtSjAyTkIxVjsyMDI0LTEyLTA4OyIxMDoyMTozMSAiOzE7Mjk2NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sonqolgan, son3, son" type="Integer" array="False" size=""/>
+            <output expression="&quot;Sonni kiriting:&quot;" newline="True"/>
+            <input variable="son"/>
+            <assign variable="son3" expression="son%10"/>
+            <assign variable="sonqolgan" expression="son/10"/>
+            <output expression="&quot;Hosil bolgan son=&quot; &amp;son3 &amp;sonqolgan" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
